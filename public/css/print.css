@@ -1,0 +1,33 @@
+
+
+/* Print Styles */
+@media print {
+    body { 
+        background: white;
+        color:black;
+        margin: 0;
+    }
+    /* add the structure of the site's selectors and display:block to show */
+    /* after/display:none to hide them */
+    /* to control printed font sizes, use points, NOT pixels or em so the printer */
+    /* can understand.*/
+    #header {
+        display:block;
+        height: 75px;
+        font-size: 24px;
+    }
+
+    #main {
+        display:block;
+        margin-left: 0;
+        float: none;
+        width:auto;
+        font-size: 12pt;
+    }
+
+    #footer {
+        display:none;
+    }
+
+
+}
