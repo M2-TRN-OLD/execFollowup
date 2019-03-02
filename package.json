@@ -1,0 +1,17 @@
+{
+  "name": "execfollowup",
+  "version": "1.0.0",
+  "description": "this tool will assist a student or student consultant in keeping on-track with their semester work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Missy Maloney",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.16",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0"
+  }
+}
