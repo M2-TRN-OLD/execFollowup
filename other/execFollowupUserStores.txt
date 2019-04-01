@@ -1,0 +1,22 @@
+*  I should be able to sign up for ExecFollowup
+* I should be able to login to ExecFollowup
+*  I should be able to reset my password
+* I should be able to add student information:
+	+ name, lName, School, level
+*  I should be able to add all my classes for a particular semester
+*  I should be able to remove a class
+* I should be able to update the information on one of my classes
+
+*  I should be able to add projects to my classes, including the following:
+	+ homework (short and long desc)
+	+ projects (short and long desc)
+	+ quizzes (short topic and long desc)
+	+ tests (short topic and long desc
+	+ Exams (short and long desc)
+	+ Final
+
+* I should be able to add a week to my semester
+	+ what do you like most/least
+	+ what is the easiest/hardest
+	+ upcoming projects
+	+ grades

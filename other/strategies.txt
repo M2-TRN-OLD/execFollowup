@@ -1,0 +1,260 @@
+Strategies
+
+{  
+	cat: 'Executive Functioning',	
+	shortDesc:  'Write Everything Down',
+	longDesc:  'using pen and paper to write things down, instead of taking notes on a laptop, helps boost memory retention.',
+	source:  'Psychological Science'
+},
+{  
+	cat: 'Executive Functioning',	
+	shortDesc:  'Prioritize',
+	longDesc:  'By prioritizing, I’m able to see exactly what needs to be done that day and what can wait until tomorrow if I don’t get to it.',
+	source:  'The Penny Hoarder'
+},
+{  
+	cat: 'Executive Functioning',	
+	shortDesc:  'Differentiate Between Academic and Personal Time',
+	longDesc:  ' be sure to fully engage in fun time when you’ve planned it.',
+	source:  'The Penny Hoarder'
+},
+{  
+	cat: 'Executive Functioning',	
+	shortDesc:  'Balance School and Work',
+	longDesc:  'organize your schedule so you’re off work at least two days a week.As much as we want to believe that we can do it all, the reality is we can’t. At some point, something’s gotta give. Considering that college is an expensive investment, your schoolwork should always take priority.',
+	source:  'The Penny Hoarder'
+},
+{  
+	cat: 'Executive Functioning',
+	shortDesc:  'Get Enough Sleep',
+	longDesc:  'You might have heard this before, but when you don’t sleep enough, your brain doesn’t function at its full potential.  According to a study published in the January 2013 issue of Child Development, students who got less sleep than usual reported more academic problems the next day than they did after they got their normal amount of sleep.',
+	source:  'January 2013 issue of Child Development'
+},
+{  
+	cat: 'Executive Functioning',
+	shortDesc:  ' Be Flexible',
+	longDesc:  'it’s OK if you don’t finish your to-do list.  Oftentimes, people exaggerate the amount of work they have to get done in their heads, which results in feeling overwhelmed and stressed.  Be OK with rearranging some things. A to-do list or schedule should be a guideline, not something you’re forcing yourself to complete.',
+	source:  'Penny Hoarder'
+},
+{  
+	cat: 'Executive Functioning',
+	shortDesc:  ' Prioritize Extracurriculars',
+	longDesc:  'It’s important to be involved on campus. It looks great on a resume, and involvement helps you network and build skills you can use in the workforce.  Knowing that, you may be tempted to get involved in multiple extracurriculars — a fraternity, the newspaper, an honor society and maybe even the knitting club — but it will get tough to keep up with all of them.Pick a few that really spark your interest, and go for them. It’s better to have a few you can focus your time and energy on than a bunch you don’t really participate in. ',
+	source:  'Penny Hoarder'
+},
+{  
+	cat: 'Executive Functioning',
+	shortDesc:  'Be Kind to Yourself',
+	longDesc:  'Remember to put yourself first during busy periods. That means if you’re tired of studying at 2 a.m. and want to sleep, then sleep. If you want to take a 30-minute break and stare at the ceiling, by all means, do it.  Doing what you need to do will keep you focused and sane — just be sure to evaluate the consequences of those actions afterward and adjust your to-do list or schedule accordingly. ',
+	source:  'Penny Hoarder'
+},
+{  
+	cat: 'Executive Functioning',
+	shortDesc:  'Plan for AFTER the study break',
+	longDesc:  'Study breaks are most effective when students have a clear sense of what they will do once they get back to and do some quick preparation before taking a pause from work. Before taking a break, for example, open up that textbook to the reading that needs to be done. Or set out the graph paper and pencil for the math homework up next. This one minute prep can help students who have a hard time starting work after a break (our fancy term: Task Initiation).',
+	source:  'www.beyondbooksmart.com'
+},
+{  
+	cat: 'Executive Functioning',
+	shortDesc:  'Learn in Smaller Chunks:  Prep for class',
+	longDesc:  'One of the best test prep tips is to be focused in class. Prepare for class by doing assigned reading and homework. Participate. Ask questions. Each day new nuggets of knowledge are nestling into your neurons. Turns out, learning is most effective in these smaller chunks, over time. Students aren’t simply biding time until baseball practice or play rehearsal during class. The savvy ones know that they are preparing for the exam while dissecting that sheep’s lung in biology.',
+	source:  'www.beyondbooksmart.com'
+},
+{  
+	cat: 'Executive Functioning',
+	shortDesc:  'Look at deadlines in a positive way',
+	longDesc:  'A deadline can be viewed as a helpful tool – they force you to make decisions and push forward, rather than dwelling on a specific aspect of a project for days. Don’t think of that upcoming due-date as a burden, but rather look forward to it as a time when your work will be finished.',
+	source:  'www.beyondbooksmart.com'
+},
+{  
+	cat: 'Executive Functioning',
+	shortDesc:  'Time Limit Breaks',
+	longDesc:  'a break is time-limited. It is a short, 5-15 minute period that has a clear beginning and end. Second, a break is part of the overall homework plan. It doesn’t just erupt out of nowhere. Study breaks are strategic and used to energize and refocus a distracted student.',
+	source:  'www.beyondbooksmart.com'
+},
+{  
+	cat: 'Study Better Skills',
+	shortDesc:  'Stick to Print',
+	longDesc:  'Tablets and other eLearning media are convenient and portable, but research suggests that traditional print materials still have the upper hand when it comes to studying. Some researchers argue that adopting interactive habits like scrolling, clicking, and pointing enhances the academic experience, but more than 90% of students polled said they prefer a hard copy or print over a digital device when it comes to studying and school work. Furthermore, a psychology lecturer finds that students required more repetition to learn new material if they were reading on a computer screen versus reading printed material.',
+	source:  'www.thebestcolleges.org'
+},
+{  
+	cat: 'Study Better Skills',
+	shortDesc:  'CHANGE YOUR SCENERY',
+	longDesc:  'A change of scenery impacts learning and concentration abilities. Psychologist Robert Bjork suggests that simply moving to a different room to study (or going a step further and learning amongst the great outdoors) could increase both your concentration and retention levels.',
+	source:  'www.thebestcolleges.org'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'THWART THE "CURVE OF FORGETTING"',
+	longDesc:  'Scientists started exploring the "curve of forgetting" in 1885, but the concept remains useful to today's study habits. The gist of the "curve of forgetting" is this: The first time you hear a lecture or study something new, you retain up to 80% of what you’ve just learned -- if you review the material within 24 hours. Fortunately, this effect is cumulative; so after a week, you may retain 100% of the same information after only five minutes of review. Generally, psychologists agree this type of interval studying -- as opposed to "cramming" -- is best, and that students should study closer to the day they learned the material than the day of the test.',
+	source:  'www.thebestcolleges.org'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'USE ACTIVE RECALL',
+	longDesc:  'closing the book and reciting everything they can remember up to that point to practice long-term memorization.',
+	source:  'www.thebestcolleges.org'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'USE THE LEITNER SYSTEM',
+	longDesc:  'Named for its originator, German scientist Sebastian Leitner, the study method forces students to learn, through repetition, the material they know least well. The system involves moving cards with correctly answered questions further down a line of boxes and moving incorrectly answered cards back to the first box. Thus, the cards in the first box are studied most frequently and the interval becomes greater as the student proceeds down the line, forcing her to review again and again the information she doesn't know.',
+	source:  'www.thebestcolleges.org'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'TAKE THE PRACTICE TESTS',
+	longDesc:  'As you would with the ACT, SAT, or GMAT, take advantage of professors and instructors who make old exams available as practice tests. You can get a sense of the instructor’s testing style and a become familiar with how the information might be presented on the real test day. A 2011 study finds students who tested themselves with a practice test after learning the material retained 50% more of the information a week later than their peers who did not take a practice test.',
+	source:  'www.thebestcolleges.org'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'MAKE CONNECTIONS',
+	longDesc:  'Experts argue that the difference between "slow learners" and "quick studiers" is the way they study; for example, instead of memorizing, "quick learners" make connections between ideas. Known as contextual learning, this process requires students to customize their own methods of learning, thus making connections that inspire all of the information to fall into place and make sense for them individually. Some students find that recording all information visually in one place (such as on a sheet of paper or chalkboard) can help to paint a fuller picture and aid their connections within the learning process.',
+	source:  'www.thebestcolleges.org'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'TAKE ON THE ROLE OF TEACHER',
+	longDesc:  'Research shows that students have better memory and recall abilities when they learn new information with the expectation of having to teach it to someone else. This makes sense, as teachers are charged with not only learning information for themselves, but also with organizing key elements of said information to explain it clearly to others. Studies also suggest that students are more engaged and will instinctively seek out methods of recall and organization when expected to take on a "teacher" role. This can be especially effective with subjects like reading comprehension and science, though part of the magic involves working out how you’d "teach" each subject on a case-by-case basis.',
+	source:  'www.thebestcolleges.org'
+},
+{  
+	cat: 'What not to do',
+	shortDesc:  'STOP MULTITASKING',
+	longDesc:  'Multitasking is a myth. You may think you’re killing two birds with one stone by texting while studying, for example, but you’re actually forming poor study habits. According to researchers, so-called "multitasking" extends your study time and ultimately may damage your grades.',
+	source:  'www.thebestcolleges.org'
+},
+{  
+	cat: 'What not to do',
+	shortDesc:  'DON'T FOCUS ON ONE SUBJECT FOR TOO LONG',
+	longDesc:  'If you’ve never felt "burned out" from repeatedly studying pages of history notes, scrutinizing chemistry formulas, or practicing music scales, consider yourself lucky. But know that the threat is real. It's best to vary your material rather than zeroing in persistently on one area. (It is acceptable to join related or similar subject areas together; for example, instead of only memorizing vocabulary, mix in reading as well. If doing math, tackle several concepts together instead of just one.',
+	source:  'www.thebestcolleges.org'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'Keeping a Careful Record of Assignments',
+	longDesc:  'Put it down in black and white—including the details—and keep it in your notebook. Knowing just what you are expected to do and when you are expected to do it is the first giant step toward completing important assignments successfully and on time.',
+	source:  'Chadron State College, Learning Center'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'Keeping a Well-Kept Notebook Improves Grades',
+	longDesc:  'Researchers tell us that there is definitely a relationship between orderliness and high grades. Knowing where to find your materials when you need them is crucial. Keep a special section for each subject in your notebook as well as a semester calendar so that you can write down all important assignments as they are announced. Having all of this information together in one place is vital to your success. A well-kept notebook is a part of good time management. If you’ve ever misplaced an important assignment, you know how much valuable time can be lost looking for it.',
+	source:  'Chadron State College, Learning Center'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'Making Use of “Trade Secrets”',
+	longDesc:  'Flash cards aren’t just for kids! They are a legitimate study tool. Use the front of the card to write an important term, and on the back, write a definition or an important fact about that term. Carry your flash cards with you. Use them during “dead time,” such as standing in a check-out line, waiting in a doctor or dentist’s office, riding a bus, or waiting at the Laundromat. Keep a set in the glove compartment of your car for long lines at your favorite fast food drive-in restaurant or bank. Post them on your bathroom mirror to review while shaving or applying make-up. You’ll be surprised how much you can accomplish during those otherwise “dead times.” Think about developing your own “trade secrets” that will improve your study skills.',
+	source:  'Chadron State College, Learning Center'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'Taking Good Notes as Insurance Against Forgetting',
+	longDesc:  'Learn to take good notes efficiently as your instructors stress important points in class and as you study your assignments. Good notes are a “must” for just-before-test-reviewing. Without notes, you will need to reread and review the entire assignment before a test. This may require you to read anywhere from 100-300 pages of material in one sitting. With notes, you can recall the main points in just a fraction of the time. The time you spend in note taking is not lost, but in fact, is a time-saver.',
+	source:  'Chadron State College, Learning Center'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'Overlearning Material Enhances Memory',
+	longDesc:  'Psychologists tell us that the secret to learning for future reference is overlearning. Experts suggest that after you can say, “I know this material,” that you should continue to study that material for an additional one-fourth of the original study time. The alphabet is an example of overlearning. How did you learn it? Probably through recitation which is the best way to etch material into the memory trace. Manipulate the material as many different ways as possible by writing, reading, touching, hearing, and saying it. In an experimental study, students who overlearned material retained four times as much after a month than students who didn’t overlearn.',
+	source:  'Chadron State College, Learning Center'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'Reviewing Material Frequently',
+	longDesc:  'A student who does not review material can forget 80% of what has been learned in only two weeks! The first review should come very shortly after the material was first presented and studied. Reviewing early acts as a safeguard against forgetting and helps you remember far longer. Frequent reviews throughout the course will bring rewards at test time and will alleviate pre-test anxiety.',
+	source:  'Chadron State College, Learning Center'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'Keep up with assignments.',
+	longDesc:  'You won't have to learn too much at one time.
+Make an assignment schedule for each week.
+Make daily to-do lists.
+Reward yourself for completing work.',
+	source:  'Ohio University, AAC Study Tips'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'Take breaks while studying.',
+	longDesc:  'You won't be so tired, and you can focus better.
+Stand up after 20 minutes.
+Switch to a different subject.
+Write, draw and talk out loud.',
+	source:  'Ohio University, AAC Study Tips'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'Review lecture notes each day.',
+	longDesc:  'Make up study questions from the key points and quiz yourself.',
+	source:  'Ohio University, AAC Study Tips'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'Study actively.',
+	longDesc:  'Pay attention to the major headings when you read.
+How many headings are there? How are they related.
+Read the chapter summary.',
+	source:  'Ohio University, AAC Study Tips'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'Look for the main ideas.',
+	longDesc:  'The details will cluster around these ideas and be easier to remember.',
+	source:  'Ohio University, AAC Study Tips'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'Test yourself as you study.',
+	longDesc:  'Stop and try to tell yourself what you've learned -- in your own words.',
+	source:  'Ohio University, AAC Study Tips'
+},
+{  
+	cat: 'Study Methods',
+	shortDesc:  'Keep reviewing after you feel you know the information.',
+	longDesc:  'The information will be more firmly embedded in your memory.',
+	source:  'Ohio University, AAC Study Tips'
+},
+{  
+	cat: 'Time Planning',
+	shortDesc:  'Make A Semester Schedule',
+	longDesc:  'A Semester Schedule gives you an overview of your semester. It lets you see, in advance, which weeks are packed and which ones offer more flexibility. It includes all major events, exams, quizzes, papers and projects. Post it near your desk to keep the big picture in mind.
+
+',
+	source:  'Ohio University, AAC Study Tips'
+},
+{  
+	cat: 'Time Planning',
+	shortDesc:  'Make A Detailed Weekly Schedule',
+	longDesc:  'A Detailed Weekly Schedule lets you plan the details of an upcoming week. You select the best times to do your studying, your exercise, your work and recreation. This schedule helps eliminate the constant need to decide between "should" and "want to" activities and gives you more flexibility.',
+	source:  'Ohio University, AAC Study Tips'
+},
+{  
+	cat: 'Time Planning',
+	shortDesc:  'Make A Daily Plan:  A To-Do List',
+	longDesc:  'A Daily Plan: A To-Do List is a portable, prioritized list of things you need to do for that day. You can make it in just a few minutes and carry it with you to keep yourself on track and feel good about the things you are getting done.',
+	source:  'Ohio University, AAC Study Tips'
+},
+{  
+	cat: 'Study Methods - Reading',
+	shortDesc:  'increase your ability to remember what you read:',
+	longDesc:  'Set a reasonable amount of time for the reading.
+Look over the title, headings/subheadings/summary to get a little background.
+Turn each heading/subheading into a study question. Read to find the answer.
+Stop frequently to tell yourself what you've found out.
+Use your own words. Talk out loud or write brief notes.
+Look back at what you've read before you close the book.',
+	source:  'Ohio University, AAC Study Tips'
+},
+
+
+
+
+
+
+
+
+

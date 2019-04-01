@@ -11,13 +11,13 @@
   <!-- responsive viewport tag, tells small screens that it is responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1"> 
   <!-- stylesheets -->
-  <link rel="stylesheet" href="css/addDeliverable.css">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <nav role="navigation">Nav</nav>
     <main role="main">
         <header role="banner">
-            <h1>Executive Followup - Add Deliverable</h1>
+            <h3>Executive Followup - Add Deliverable</h1>
         </header>
 
         <section>
@@ -26,73 +26,100 @@
                         <p>Biology</p>
                 </div>
                 <form id="record-deliverable">
-                        <div class="form-section" >
+                        <div class="form-section sec-one" >
                                 <p class="form-title">Select Deliverable Type</p>
-                                <div class="form-inputs form-section-deliverable-type">
-                                        <input type="radio" name="deliverable-type" value="0" class="deliverable-type-radio" checked>
-                                        <label class="deliverable-type-desc" for="deliverable-type">
-                                                <span>High Pressure Deliverable</span>
-                                                <div class="deliverable-type-explanation">These deliverables are worth more than 20% of your final grade.  
-                                                They have different titles:  'test', 'exam', 'midterm', 'final'.  They require more preparation and are often harder to succeed on.</div>
-                                        </label>
-                                </div>
-                                <div class="form-inputs form-section-deliverable-type">
-                                        <input type="radio" name="deliverable-type" value="1" class="deliverable-type-radio">
-                                        <label class="deliverable-type-desc" for="deliverable-type">
-                                                <span>Medium Pressure Deliverable</span>
-                                                <div class="deliverable-type-explanation">These deliverables could be worth 20% or more of your final grade in total but often have intermediary checkpoints that your can obtain part of your grade from.
-                                                These are 'long-term project', 'group project', 'term papers' and others.  They require a lot of independent work but the work is mitigated by sub-deliverables.
+                                <div class="deliverable-types">
+                                        <div class="form-inputs form-section-deliverable-type">
+                                                        <div class="input-btn">
+                                                                <input type="radio" name="deliverable-type" value="0" class="deliverable-type-radio" checked>
+                                                        </div>
+                                                        <div class="deliverable-type-desc" for="deliverable-type">
+                                                                <div class="pressure">High Pressure Deliverable</div>
+                                                                <div class="deliverable-type-explanation"><em>[these will become tooltips]</em>  
+                                                                        <p>
+                                                                                These deliverables are worth more than 20% of your final grade.  
+                                                                                They have different titles:  'test', 'exam', 'midterm', 'final'.  They require more preparation and are often harder to succeed on.</div>
+                                                                        </p>                                                        
+                                                                </div>
                                                 </div>
-                                        </label>
-                                </div>
-                                <div class="form-inputs form-section-deliverable-type">
-                                        <input type="radio" name="deliverable-type" value="2" class="deliverable-type-radio">
-                                        <label class="deliverable-type-desc" for="deliverable-type">
-                                                <span>Less Pressure Deliverable</span>
-                                                <div class="deliverable-type-explanation">These deliverables are worth less than 20% of your grade.  There are usually several and maybe weekly or bi-weekly deliverables.  
-                                                These are 'quizzes', 'labs', 'homework' and others.  These require preparation but a poor grade on one or more can be recovered by being successful on other items.
-                                                Sometimes referrred to as 'bread and butter' grades, good grades in this area can hedge against a poor grade on a 'High Pressure Deliverable'.</div>
-                                        </label>
-                                </div>
+                                                <div class="form-inputs form-section-deliverable-type">
+                                                        <div class="input-btn">
+                                                                <input type="radio" name="deliverable-type" value="0" class="deliverable-type-radio" checked>
+                                                        </div>
+                                                        <div class="deliverable-type-desc" for="deliverable-type">
+                                                                <div class="pressure">Medium Pressure Deliverable</div>
+                                                                <div class="deliverable-type-explanation"><em>[these will become tooltips]</em>
+                                                                        <p>
+                                                                                These deliverables could be worth 20% or more of your final grade in total but often have intermediary checkpoints that your can obtain part of your grade from.
+                                                                                These are 'long-term project', 'group project', 'term papers' and others.  They require a lot of independent work but the work is mitigated by sub-deliverables.
+                                                                        </p>                                                                
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <div class="form-inputs form-section-deliverable-type">
+                                                        <div class="input-btn">
+                                                                <input type="radio" name="deliverable-type" value="0" class="deliverable-type-radio" checked>
+                                                        </div>
+                                                        <div class="deliverable-type-desc" for="deliverable-type">
+                                                                <div class="pressure">Less Pressure Deliverable</div>
+                                                                <div class="deliverable-type-explanation"><em>[these will become tooltips]</em>
+                                                                        <p>
+                                                                                These deliverables are worth less than 20% of your grade.  There are usually several and maybe weekly or bi-weekly deliverables.  
+                                                                                These are 'quizzes', 'labs', 'homework' and others.  These require preparation but a poor grade on one or more can be recovered by being successful on other items.
+                                                                                Sometimes referrred to as 'bread and butter' grades, good grades in this area can hedge against a poor grade on a 'High Pressure Deliverable'.
+                                                                        </p>
+                                                                </div>
+                                                                </div>
+                                                        </div>
+                                                </div>
                         </div>
-                        <div class="form-section">
-                                <label class='form-title' for="deliverable-short-desc">Deliverable Short Description</label>
-                                <select class="form-inputs" name="deliverable-short-desc-select"  required>
-                                        <option class='high-pressure-deliverable' value="test">test</option>
-                                        <option class='high-pressure-deliverable' value="exam">exam</option>
-                                        <option class='high-pressure-deliverable' value="midterm">midterm</option>
-                                        <option class='high-pressure-deliverable' value="final">final</option>
-                                        <option class='medium-pressure-deliverable' value="group project">group project</option>
-                                        <option class='medium-pressure-deliverable' value="term project">term project</option>
-                                        <option class='medium-pressure-deliverable' value="term paper">term paper</option>
-                                        <option class='medium-pressure-deliverable' value="long-term project">long-term project</option>
-                                        <option class='less-pressure-deliverable' value="weekly quiz">weekly quiz</option>
-                                        <option class='less-pressure-deliverable' value="bi-weekly quiz">bi-weekly quiz</option>
-                                        <option class='less-pressure-deliverable' value="weekly lab">weekly lab</option>
-                                        <option class='less-pressure-deliverable' value="bi-weekly lab">bi-weekly lab</option>
-                                        <option class='less-pressure-deliverable' value="homework">homework</option>
-                                        <option value="other">other</option>
-                                </select>
+                                
                         </div>
-                        <div class="form-section">
-                                <p class="form-title deliverable-date-header">Due Date</p>
-                                <div class="form-inputs">
-                                        <input type="number" name="date-month" placeholder="01" min="1" max="12" required=""> .
-                                        <input type="number" name="date-day" class="date-day"  placeholder="01" min="1" max="31" required=""> .
-                                        <input type="number" name="date-year" class="date-year" placeholder="2019" min="2019" max="2020" required="">
-                        
+                        <div class="form-section sec-two">
+                                <div class="deliverable">
+                                                <label class='form-title' for="deliverable-short-desc">Deliverable</label>
+                                                <p><em>[the selections that will show will be based on which deliverable-type is selected below.  Right now, all deliverables are showing.]</em></p>
+                                                
+                                                <select class="form-inputs" name="deliverable-short-desc-select"  required>
+                                                        <option class='high-pressure-deliverable' value="test">test</option>
+                                                        <option class='high-pressure-deliverable' value="exam">exam</option>
+                                                        <option class='high-pressure-deliverable' value="midterm">midterm</option>
+                                                        <option class='high-pressure-deliverable' value="final">final</option>
+                                                        <option class='medium-pressure-deliverable' value="group project">group project</option>
+                                                        <option class='medium-pressure-deliverable' value="term project">term project</option>
+                                                        <option class='medium-pressure-deliverable' value="term paper">term paper</option>
+                                                        <option class='medium-pressure-deliverable' value="long-term project">long-term project</option>
+                                                        <option class='less-pressure-deliverable' value="weekly quiz">weekly quiz</option>
+                                                        <option class='less-pressure-deliverable' value="bi-weekly quiz">bi-weekly quiz</option>
+                                                        <option class='less-pressure-deliverable' value="weekly lab">weekly lab</option>
+                                                        <option class='less-pressure-deliverable' value="bi-weekly lab">bi-weekly lab</option>
+                                                        <option class='less-pressure-deliverable' value="homework">homework</option>
+                                                        <option value="other">other</option>
+                                                </select>
                                 </div>
+                                <div class="due-date">
+                                                <p class="form-title deliverable-date-header">Due Date</p>
+                                                <div class="form-inputs">
+                                                        <input type="number" name="date-month" placeholder="01" min="1" max="12" required=""> .
+                                                        <input type="number" name="date-day" class="date-day"  placeholder="01" min="1" max="31" required=""> .
+                                                        <input type="number" name="date-year" class="date-year" placeholder="2019" min="2019" max="2020" required="">
+                                        
+                                                </div>
+                                </div>
+                               
+                               
                         </div>
                         <div class="form-section">
                                 <label class='form-title' for="deliverable-desc">Deliverable Topic</label>
                                 <div class="form-inputs">
-                                        <input class="long-input" type="text" name="deliverable-topic" placeholder="cumulative material" required>
+                                        <textarea class="long-input" type="text" name="deliverable-topic" rows="3" placeholder="cumulative material" required></textarea>
                                 </div>
                                 
                         </div>
-              
-                        <button type="submit">Submit</button>
-                        <button type="reset">Reset</button>
+                        <div class="sub-nav-buttons">
+                                        <button type="submit">Submit</button>
+                        </div>
+                       
                       </form>
         </section>
     </main>

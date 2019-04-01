@@ -89,6 +89,18 @@
       flex-direction: row;
   }
 
+  .class-name {
+    padding:0 8px;
+    font-weight: bold;
+  }
+
+  .class-title {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+
   .form-inputs {
     margin-left: 20px;
   }
@@ -103,83 +115,72 @@
     flex-direction: row;
   }
 
-  .week-type-desc {
-    margin-left: 15px;
-  }
   
-  .week-type-explanation {
-    font-size: 12px;
-    padding: 5px 20px;
-  }
-  
-  .week-entry {
-    min-height: 0;
-  }
-  
-  .week-entry header {
-    padding: 0;
-  }
-  
-  .week-entry header h3 {
-    margin: 0;
-  }
-  
-  .week-description {
-    text-align: left;
-    margin-bottom: 15px;
-  }
-  
-  .week-stat {
-    color: blue;
-  }
-
-  .course-details {
-      display:flex;
-      flex-direction: row;
-  }
 
   .attitude {
     display: flex;
     flex-direction: row;
 }
 
-  .selection {
-      padding:0 12px;
-  }
+.selection {
+    padding:0 12px;
+}
 
-  .course-head {
-      padding: 15px 5px;
-  }
+.course-head {
+    padding: 15px 5px;
+}
 
-  .course-title-label {
-      font-weight:bold;
-      width: 35%;
-  }
-
-  .add-deliverable {
-      margin-left: 20px;
-  }
-
-  .week-date {
-      display:flex;
-      flex-direction: row;
-  }
-
-  .field-name,
-  .field-name-title ,
-  .add-deliverable {
-    width: 35%;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 3px;
-  }
-  .field-name,
-  .field-name-title {
-      border: 1px solid black;
-  }
-
-  .field-name-title {
+.course-title-label {
     font-weight:bold;
-    text-align:center;
+    width: 35%;
+}
+
+.add-notes {
+  width: 100%;
+}
+
+.sub-nav-buttons,
+.add-deliverable {
+  margin: 20px;
+  text-align:center;
+}
+
+.week-date {
+  display:flex;
+  flex-direction: row;
+}
+
+.course-details {
+  width: 100%;
+    display:flex;
+    flex-direction: row; 
+}
+
+.field-name,
+.field-name-title {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  border: 1px solid black;
   }
+
+.field-name-title {
+  font-weight:bold;
+  text-align:center;
+  }
+
+.deliverable,
+.due-date {
+  width: 20%;
+  text-align:center
+}
+
+.hrs-req {
+  width:15%;
+  text-align:center;
+}
+  
+.topic {
+  width: 45%;
+}
   

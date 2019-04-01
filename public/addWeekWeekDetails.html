@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Executive Followup - Wireframe:  Week - Week Details</title>
+  <meta name="author" content="Missy Maloney">
+  <meta name="description" content="Keep track of your college school work.">
+  <meta name="keywords" content="Thinkful">
+
+  <!-- responsive viewport tag, tells small screens that it is responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="css/addDeliverable.css">
+</head>
+<body>
+    <nav role="navigation">Nav</nav>
+    <main role="main">
+        <header role="banner">
+            <h1>Add your week</h1>
+            <h3>Which week is this?  Add the ending date</h>
+        </header>
+
+        <section>
+                <form id="record-week">
+
+                        <div class="form-section sec-two week-date">
+                                <div class="week-number">
+                                        <label class='form-title' for="week-short-desc">Week Number</label>
+                                        <select class="form-inputs" name="week-short-desc-select"  required>
+                                                <option class='week-number' value="1">1</option>
+                                                <option class='week-number' value="2">2</option>
+                                                <option class='week-number' value="3">3</option>
+                                                <option class='week-number' value="4">4</option>
+                                                <option class='week-number' value="5">5</option>
+                                                <option class='week-number' value="6">6</option>
+                                                <option class='week-number' value="7">7</option>
+                                                <option class='week-number' value="8">8</option>
+                                                <option class='week-number' value="9">9</option>
+                                                <option class='week-number' value="10">10</option>
+                                                <option class='week-number' value="11">11</option>
+                                                <option class='week-number' value="12">12</option>
+                                                <option class='week-number' value="13">13</option>
+                                                <option class='week-number' value="14">14</option>
+                                                <option class='week-number' value="15">15</option>
+                                                <option class='week-number' value="16">16</option>
+                                        </select>
+                                </div>
+                                <div class="week-ending selection">
+                                        <p class="form-title week-date-header">Week Ending</p>
+                                        <div class="form-inputs">
+                                                <input type="number" name="date-month" placeholder="01" min="1" max="12" required=""> .
+                                                <input type="number" name="date-day" class="date-day"  placeholder="01" min="1" max="31" required=""> .
+                                                <input type="number" name="date-year" class="date-year" placeholder="2019" min="2019" max="2020" required="">
+                                
+                                        </div>
+                                </div>   
+                        </div>
+                        <button class="basic-btn" type="back">Back</button>
+                        <button class="basic-btn" type="next">Next</button>
+                       
+                      </form>
+        </section>
+    </main>
+    <footer role="content-info">Footer</footer>
+</body>
+</html>
