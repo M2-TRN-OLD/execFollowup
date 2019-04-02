@@ -8,9 +8,10 @@
     font-size: 12px;
     color: #444;
     text-align: center;
-    max-width: 991px;
     line-height: 1.5;
     margin:0 auto;
+    border: 1px solid;
+    width: 100%;
   }
   
   nav,
@@ -28,14 +29,15 @@
   }
   
   header {
-    padding: 45px 10px;
+    padding-top: 90px 
   }
   
   section {
-    min-height: 200px;
-    padding: 20px 15px;
-    margin:15px;
+   /* min-height: 50px;*/
+    padding: 10px 5px;
+    margin:8px 0;
     background-color: #eee;
+    border: 1px solid;
   }
 
   textarea {
@@ -50,8 +52,12 @@
   }
 
   .wrapper{
-    width: 80%;
-    margin:0 auto;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  main {
+    border: 1px solid;
   }
 
   .basic-btn {
@@ -60,19 +66,22 @@
     background-color: lightgray;
   }
 
+  .basic-header {
+    font-weight:bold;
+    padding:4px;
+  }
+
+  .basic-detail {
+    padding:4px;
+  }
+
+  .basic-input {
+    border: 1px solid;
+  }
+
   .deliverable-types {
     display:flex;
     flex-direction: row;
-  }
-
-  .form-section-deliverable-type {
-    width: 33%;
-  }
-
-  .input-btn,
-  .pressure,
-  .sub-nav-buttons {
-    text-align:center;
   }
 
   section:nth-child(even) {
@@ -91,266 +100,40 @@
   form {
     text-align: left;
   }
-  
-  input[type="number"] {
-    width: 50px;
-  }
-
-  input[type="radio"] {
-    border: 1px solid red;
-  }
-
-  .long-input {
-    width: 100%;
-  }
-  
+ 
   label {
     display: block;
+    padding: 3px;
   }
 
-  .form-title {
-    font-weight:bold;
-    margin-bottom: 10px;
+  .inline-label {
+    width: 20%;
+    margin-right: 5px;
   }
 
-  .form-inputs {
-    margin-left: 20px;
-  }
-  
-  .form-section {
-    margin-bottom: 15px;
-    padding-top: 10px;
+  input {
+    padding: 3px;
   }
 
-  .deliverable,
-  .due-date{
-    width:50%;
-  }
-
-  .week-number {
-    width: 35%;
-  }
-  .week-ending{
-    width: 65%;
-  }
-  
-  .deliverable-type-explanation {
-    font-size: 8px;
-  }
-  
-  .deliverable-entry {
-    min-height: 0;
-  }
-  
-  .deliverable-entry header {
-    padding: 0;
-  }
-  
-  .deliverable-entry header h3 {
-    margin: 0;
-  }
-  
-  .deliverable-description {
-    text-align: left;
-    margin-bottom: 15px;
-  }
-  
-  .deliverable-stat {
-    color: blue;
-  }
-
-  .sec-two {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .form-title {
-    font-weight:bold;
-    margin-bottom: 10px;
-  }
-
-  .attitude {
-      display: flex;
-      flex-direction: row;
-  }
-
-  .class-name {
-    padding:0 8px;
-    font-weight: bold;
-  }
-
-  .class-title {
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    
-  }
-
-  .form-inputs {
-    margin-left: 20px;
-  }
-  
-  .form-section {
-    margin-bottom: 15px;
-    padding-top: 15px;
-  }
-
-  .form-section-week-type {
-    display:flex;
-    flex-direction: row;
-  }
-
-  
-
-  .attitude {
-    display: flex;
-    flex-direction: row;
-}
-
-.selection {
-    padding:0 12px;
-}
-
-.course-head {
-    padding: 15px 5px;
-}
-
-.course-title-label {
-    font-weight:bold;
-    width: 35%;
-}
-
-.add-notes {
-  width: 100%;
-}
-
-.sub-nav-buttons,
-.add-deliverable {
-  margin: 20px;
-  text-align:center;
-}
-
-.week-date {
-  display:flex;
-  flex-direction: row;
-}
-
-.course-details {
-  width: 100%;
-    display:flex;
-    flex-direction: row; 
-}
-
-.field-name,
-.field-name-title {
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 3px;
-  border: 1px solid black;
-  }
-
-.field-name-title {
-  font-weight:bold;
-  text-align:center;
-  }
-
-.deliverable,
-.due-date {
-  width: 20%;
-  text-align:center
-}
-
-.hrs-req {
-  width:15%;
-  text-align:center;
-}
-  
-.topic {
-  width: 45%;
-}
-
-/* viewWeek */
-.course-summary-header,
-.course-details {
-  display:flex;
-  flex:row;
-}
-
-.vw,
-.vw-course {
-  width: 20%;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 3px;
-  border: 1px solid black;
-}
-
-/* viewWeeks */
-.week {
-  border: 1px solid gray;
-  margin: 5px 0;
-  padding: 3px;
-  display: flex;
-  flex-direction: row;
-}
-
-.week-field {
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-.week-info {
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-  width: 40%;
-}
-
-.week-detail {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  width: 40%;
-  
-}
-
-.week-view-plan {
-  width: 20%;
-}
-
-.week-num {
-  font-weight: bold;
-  width: 40%;
-}
-
-.week-end {
-  width: 60%;
-}
-
-.week-deliv,
-.week-prep  {
-  width: 50%;
-}
-
-
-
-@media all and (max-width: 768px) {
-
-  .week {
-    flex-direction:column;
-  }
-
-  .week-info,
-  .week-detail,
-  .week-view-plan {
-    text-align:center;
-    margin:0 auto;
+  .inline-input {
     width: 60%;
-    padding:5px;
   }
 
+  #top-nav{
+    display:flex;
+    flex-direction: row;
+  }
+
+  #nav-logo{
+    padding:0 10px;
+    width: 60%;
+    text-align:left;
+  }
+
+#view-past-weeks,
+#update-profile,
+#logout {
+    width: 15%;
 }
 
 
-  
-  
